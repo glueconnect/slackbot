@@ -1,0 +1,25 @@
+{
+  "name": "glueconnect-slack",
+  "version": "1.0.0",
+  "description": "Slack bot for GlueConnect app",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon --exec babel-node index"
+  },
+  "author": "Jason Miller <jason@mllrjb.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nconf": "^0.8.4",
+    "nconf-yaml": "^1.0.2",
+    "slack": "^8.3.0",
+    "winston": "^2.3.1",
+    "yargs": "^7.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
+}
